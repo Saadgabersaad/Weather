@@ -26,11 +26,15 @@ body {
   height: 38px;
 }
 
-.site-header ul li a {
+.site-header .navbar-nav li {
   text-decoration: none;
   list-style-type: none;
+}
+.site-header .navbar-nav .nav-link {
   color: white;
+  font-weight: bold;
   padding: 5px 25px;
+  margin: 0 5px;
 }
 .site-desc {
   font-size: 10px;
@@ -38,7 +42,7 @@ body {
 .list-item {
   width: 60%;
 }
-.site-header ul li .menu-item {
+.site-header ul li #home {
   border: solid 2px #009ad8;
   color: #009ad8;
   border-color: #009ad8;
