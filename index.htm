@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+  <div class="site-content">
+    <div class="site-header p-5">
+      <div class="container  ">
+        <div class="row d-flex justify-content-between align-items-center">
+          <a class="branding d-flex justify-content-evenly " href=""><img class="logo-img" src="css/logo@2x.png" alt="">
+            <div class="logo   align-self-center text-white  ">
+              <h1 class="fs-6 fw-bold">Weather</h1>
+              <h6 class="text-secondary  site-desc">tagline goes here</h6>
+            </div>
+          </a>
+          <div class=" w-75">
+            <ul class="list-unstyled  list-item align-items-center d-flex float-end justify-content-around ">
+              <li class="menu"><a class="menu-item " href=""> Home</a></li>
+              <li class="menu"><a href="">News</a></li>
+              <li class="menu"><a href="">Live Camera</a></li>
+              <li class="menu"><a href="">photos</a></li>
+              <li class="menu"><a href="">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-sec " style="background-image: url(css/banner.png);">
+      <div class="container">
+        <form action="" class="find-location ">
+          <input class="w-100  text-info   input p-3 " type="text" name="" id="search"
+            placeholder=" Find your location">
+          <input value="Find" type="button" class="butn    ">
+        </form>
+      </div>
+
+    </div>
+    <div class="forcast-table ">
+      <div class="forecast-container container">
+        <div class="row  justify-content-center flex-wrap  align-items-stretch forcast-container">
+
+          <div class="col-md-4  col-sm-12  p-0 ">
+            <div class="today forecast ">
+              <div class="forecast-header d-flex justify-content-between" id="today">
+                <div class="day">Saturday</div>
+                <div class="d-flex">
+                  <span class="todayNum">22</span>
+                  <div class=" date">June</div>
+                </div>
+              </div> <!-- .forecast-header -->
+              <div class="forecast-content text-start p-4" id="current">
+                <div class="location">Cairo</div>
+                <div class="degree fw-bolder">
+                  <div class="num">35.1<sup>o</sup>C</div>
+
+                  <div class="forecast-icon">
+                    <img id="icon" src="css/116.webp" alt="" width="90">
+                  </div>
+
+                </div>
+                <div class="custom ">Sunny</div>
+                <img src="css/icon-umberella.png" alt=""> <span class="humidity fw-semibold text ">20%</span>
+                <img src="css/icon-wind.png" alt=""> <span class="speed text fw-semibold  ">18km/h</span>
+                <span class="text"><img src="css/icon-compass.png" alt="">East</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 sec-day  d-flex align-items-sm-stretch  p-0">
+            <div class="forecast flex-grow-1 text-center">
+              <div class="forecast-header">
+                <div class="Next-dayName">Sunday</div>
+              </div> <!-- .forecast-header -->
+              <div class="forecast-content py-5 ">
+                <div class="Next-forecast-icon pb-4">
+                  <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                </div>
+                <div class="NextDayDegree fw-bold fs-4">41<sup>o</sup>C</div>
+                <small class="minTemp">26.8<sup>o</sup></small>
+                <div class="custom NextDayCustom">Sunny</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 d-flex align-items-sm-stretch p-0">
+            <div class="forecast flex-grow-1 text-center">
+              <div class="forecast-header">
+                <div class="Next-dayName">Monday</div>
+              </div> <!-- .forecast-header  -->
+              <div class="forecast-content py-5 ">
+                <div class="Next-forecast-icon pb-4">
+                  <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                </div>
+                <div class="NextDayDegree  fw-bold fs-4">41.8<sup>o</sup>C</div>
+                <small class="minTemp">29<sup>o</sup></small>
+                <div class="custom NextDayCustom">Sunny</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="site-footer  p-5">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-8">
+          <form action="#" class="subscribe-form mb-5 position-relative">
+            <input class="" type="text" placeholder="Enter your email to  subscribe...">
+            <input class="position-absolute   " placeholder="" type="submit" value="Subscribe">
+          </form>
+          <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+        <div class="col-3">
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands  fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands  fa-google-plus"></i></a>
+            <a href="#"><i class="fa-brands  fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="main.js"></script>
+
+</body>
+
+</html>

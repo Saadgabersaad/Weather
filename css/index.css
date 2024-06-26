@@ -1,0 +1,171 @@
+*,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #bfc1c8;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  background: #1e202b;
+}
+.site-header {
+  background-color: rgb(30, 32, 43);
+}
+.branding {
+  text-decoration: none;
+  display: inline-block;
+  width: 15%;
+}
+.logo-img {
+  width: 64px;
+  height: 38px;
+}
+
+.site-header ul li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  padding: 5px 25px;
+}
+.site-desc {
+  font-size: 10px;
+}
+.list-item {
+  width: 60%;
+}
+.site-header ul li .menu-item {
+  border: solid 2px #009ad8;
+  color: #009ad8;
+  border-color: #009ad8;
+  border-radius: 30px;
+  line-height: 1.5;
+}
+form .input,
+.butn {
+  border-radius: 30px;
+
+  border: none;
+  background-color: rgb(30, 32, 43);
+}
+.hero-sec {
+  background-size: cover;
+  min-height: 350px;
+  padding: 70px 0;
+}
+.find-location {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.butn {
+  background-color: #009ad8;
+  position: absolute;
+  padding: 0px 40px;
+  top: 5px;
+  right: 5px;
+  color: white;
+  font-weight: bold;
+  bottom: 5px;
+  cursor: pointer;
+}
+.menu:hover a {
+  border: 2px solid;
+  border-radius: 30px;
+  border-color: #009ad8;
+  color: #009ad8;
+}
+
+.forcast-container {
+  background-color: #323544;
+  color: #fff;
+}
+
+.sec-day {
+  background-color: #262936;
+}
+.forecast-header {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+.forecast-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  display: block;
+}
+.custom {
+  color: #009ad8;
+  margin: 20px 0;
+}
+small {
+  font-size: 16px;
+  color: #bfc1c8;
+}
+.text {
+  color: #bfc1c8;
+}
+.forecast-container {
+  margin-top: -150px;
+  padding-bottom: 70px;
+}
+span {
+  margin-right: 20px;
+}
+span img {
+  margin-right: 10px;
+}
+
+
+.num {
+  font-size: 6.4285714286rem;
+  font-weight: 800;
+
+}
+
+.site-footer .subscribe-form input[type="submit"] {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  border: none;
+  background: #009ad8;
+  padding: 10px 20px;
+
+  border-radius: 30px;
+  color: white;
+}
+.site-footer .subscribe-form input[type="text"] {
+  padding: 20px 100px 20px 20px;
+  background: #1e202b;
+  width: 100%;
+  color: white;
+  border: none;
+
+  border-radius: 30px;
+}
+.site-footer {
+  background-color: #262936;
+}
+.site-footer .social-links a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #1e202b;
+  color: #009ad8;
+  text-align: center;
+  line-height: 2;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-size: 20px;
+  font-size: 1.4285714286em;
+}
+.site-footer .social-links a:hover {
+  background: #009ad8;
+  color: white;
+}
